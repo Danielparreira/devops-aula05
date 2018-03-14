@@ -1,16 +1,16 @@
 def inicializar():
-tab = []
+  tab = []
 for i in range(3):
-linha = []
+  linha = []
 for j in range(3):
-linha.append(".")
-tab.append(linha)
+  linha.append(".")
+  tab.append(linha)
 return tab
 
 
 
 def main():
-jogo = inicializar()
+  jogo = inicializar()
 print(jogo)
 
 
