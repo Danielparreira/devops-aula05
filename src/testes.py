@@ -3,7 +3,7 @@ import sys
 
 erroInicializar = False 
 
-if len(jogo) != 3?
+if len(jogo) != 3
   erroInicializar = True
 else:
   for linha un jogo:
