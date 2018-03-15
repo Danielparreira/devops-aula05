@@ -10,7 +10,8 @@ else:
     if len(linha) != 3:
       erroInicializar = True
     else:
-      for elemento != '.':
+      for elemento in linha:
+        if elemento != '.':
         erroInicializar = True
 if erroInicializar:
   sys.exit(1)
